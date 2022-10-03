@@ -1,0 +1,20 @@
+.search-container {
+  background-color: #FFF;
+  padding: 2.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  background-color: #FFF;
+  border: 5px solid #87A2FB;
+  padding: .5em 1.25em;
+  font-size: 1.5rem;
+  width: 40%;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 50vh;
+}
+
+.search-input:focus {
+  outline: none;
+}

@@ -1,0 +1,36 @@
+.country-container {
+  display: flex;
+  gap: .5em;
+  flex-direction: column;
+  background-color: #FFF;
+  padding: 1em;
+  word-break: keep-all;
+  border-radius: 5px;
+}
+
+.country-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  -webkit-transition: all .2s ease-in;
+  transform: scale(1.015);
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  max-height: 75%;
+  min-width: 75%;
+  min-height: 75%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.flag-container {
+  height: 12rem;
+  width: 20rem;
+  text-align: center;
+  margin: auto;
+}
+
+.country-container h3 {
+  margin: .5em auto;
+}

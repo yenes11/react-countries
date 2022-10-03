@@ -1,0 +1,8 @@
+.countries-container {
+  background-color: #87A2FB;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1.5em;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
