@@ -6,12 +6,13 @@ import { CountriesList } from './components/CountriesList';
 
 function App() {
   const [keyWord, setKeyWord] = useState('');
+  const [resultCount, setResultCount] = useState(0);
 
   return (
     <div className="App">
-      <Header />
+      <Header keyWord={keyWord} count={resultCount} />
       <SearchBar setkeyword={setKeyWord} />
-      <CountriesList keyword={keyWord} />
+      <CountriesList setCount={setResultCount} keyword={keyWord} />
     </div>
   );
 }
